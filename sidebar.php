@@ -8,26 +8,26 @@ $role = $_SESSION['role'] ?? '';
 
 $menus = [
     'admin' => [
-        ['/game/admin/game_management.php',     '🎮 Game Management'],
-        ['/game/admin/admin_game_view.php',     '📊 Game View'],
-        ['/game/ticket_requests_common.php', '📨 Ticket Requests'],
-        ['/game/winners.php',             '🏆 Winners'],
-        ['/game/admin/agent_management.php',    '👥 Manage Agents'],
-        ['/game/admin/admin_change_password.php','🔑 Change Username/Password'],
-        ['/game/logout.php',        '🚪 Logout']
+        ['/admin/game_management.php',     '🎮 Game Management'],
+        ['/admin/admin_game_view.php',     '📊 Game View'],
+        ['/ticket_requests_common.php', '📨 Ticket Requests'],
+        ['/winners.php',             '🏆 Winners'],
+        ['/admin/agent_management.php',    '👥 Manage Agents'],
+        ['/admin/admin_change_password.php','🔑 Change Username/Password'],
+        ['/logout.php',        '🚪 Logout']
     ],
     'agent' => [
-        ['/game/agent/agent_game_info.php',     '🎮 Game Info'],
-        ['/game/agent/agent_game_view.php',     '📊 Game View'],
-        ['/game/ticket_requests_common.php', '📨 Ticket Requests'],
-        ['/game/winners.php',             '🏆 Winners'],
-        ['/game/agent/agent_change_password.php','🔑 Change Username/Password'],
-        ['/game/logout.php',        '🚪 Logout']
+        ['/agent/agent_game_info.php',     '🎮 Game Info'],
+        ['/agent/agent_game_view.php',     '📊 Game View'],
+        ['/ticket_requests_common.php', '📨 Ticket Requests'],
+        ['/winners.php',             '🏆 Winners'],
+        ['/agent/agent_change_password.php','🔑 Change Username/Password'],
+        ['/logout.php',        '🚪 Logout']
     ],
     'player' => [
-        ['/game/player/index.php',               '🏠 My Tickets'],
-        ['/game/winners.php',             '🏆 Winners'],
-        ['game/logout.php',       '🚪 Logout']
+        ['/player/index.php',               '🏠 My Tickets'],
+        ['/winners.php',             '🏆 Winners'],
+        ['/logout.php',       '🚪 Logout']
     ],
 ];
 ?>
