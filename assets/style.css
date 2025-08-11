@@ -1,0 +1,20 @@
+body { font-family: 'Segoe UI', Arial, sans-serif; background: #c871f7; margin:0; padding:20px; }
+.booking-panel { background: orange; border: 4px solid #4733ff; padding: 20px; border-radius: 15px; width: 360px; margin:20px auto; text-align: center; }
+.ticket-block { border:3px solid #FFD700; background: #fff9e6; padding: 8px; border-radius: 8px; margin:10px; display:inline-block;}
+.ticket-table { border-collapse: collapse; background: #f9f9ff;}
+.ticket-table td { width: 36px; height: 36px; text-align: center; border:1px solid #ccc;}
+.booked { background:#40a7eb; color: white; padding: 3px 10px; border-radius: 5px; }
+.numbers-table td { width:26px; height:26px; text-align:center; border:1px solid #ccc;}
+td.called { background: #4CAF50; color: white; }
+button { padding:8px 14px; background:#9b59b6; color:#fff; border:none; border-radius:6px; cursor:pointer; }
+button:hover { background:#4e206e; }td.marked {
+  background: #4CAF50;
+  color: white;
+  font-weight: bold;
+  animation: pulse 1.2s;
+}
+@media (max-width: 600px) {
+  body { padding: 10px; }
+  .booking-panel { width: 100%; }
+  .ticket-block { width: 100%; margin: 5px 0; }
+}
